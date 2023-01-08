@@ -3,8 +3,179 @@
   <head>
     <meta charset="utf-8">
     <title>VARIETYROOM</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="/static/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/static/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/static/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/static/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/static/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/static/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/static/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/static/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/static/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/static/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16x16.png">
+    <link rel="manifest" href="/static/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <style>
+      @font-face {
+        font-family: Variety;
+        src: url(/static/variety-font.ttf) format(truetype);
+      }
+      *{
+        margin: 0;
+        padding: 0;
+
+      }
+      html{
+        font-size: 2vw;
+        line-height: 1.2em;
+      }
+      body{
+        background: #BEBEBE; /*2B7A44*/
+        color: #C60000;
+        font-family: Variety, sans-serif;
+        text-transform: lowercase;
+      }
+      .asterisk{
+        width: 0.7em;
+        height: 0.7em;
+        background-image: url(/static/asterisk.svg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: inline-block;
+        color: #BEBEBE;
+      }
+      a{
+        color: #C60000;
+        text-decoration: none;
+        border-bottom: 0.1em solid #C60000;
+      }
+      h1{
+        position: fixed;
+        top: 4rem;
+        left: 4rem;
+        font-size: 2rem;
+      }
+      h1 .asterisk{
+        height: 0.5em;
+        width: 0.5em;
+        vertical-align: text-top;
+      }
+      aside{
+        position: fixed;
+        bottom: 4rem;
+        left: 4rem;
+        width: calc(40% - 6rem);
+      }
+      main{
+        position: fixed;
+        top: 4rem;
+        right: 4rem;
+        width: calc(60% - 6rem);
+        height: calc(100vh - 8rem);
+        overflow-y: auto;
+      }
+      img{
+        width: 100%;
+        height: auto;
+      }
+      li{
+        list-style: none;
+        margin: 0.5rem;
+      }
+      @media (orientation: portrait) {
+        html{
+          font-size: 3vh;
+        }
+        h1{
+          position: fixed;
+          top: 2rem;
+          left: 2rem;
+          font-size: 2rem;
+        }
+        body{
+
+        }
+        aside{
+          position: initial;
+          width: 100%;
+          padding-top: calc(50vh - 8rem);
+        }
+        main{
+          position: initial;
+          top: 4rem;
+          right: 4rem;
+          width: 100%;
+          height: auto;
+          overflow-y: auto;
+          margin-top: 4rem;
+        }
+        .inner{
+          position: fixed;
+          top: 6rem;
+          left: 2rem;
+          width: calc(100% - 4rem);
+          height: calc(100vh - 10rem);
+          overflow-y: scroll;
+        }
+      }
+    </style>
   </head>
   <body>
-    <h1>VARIETYROOM</h1>
+    <h1>
+      varietyroom<span class="asterisk"></span>
+    </h1>
+    <div class="inner">
+    <aside>
+      <p>the varietyroom will showcase performative work <span class="asterisk"></span> during the annual exhibition 2023  in room 123</p><br>
+      <p>send us your concept  until 28.01.23 to<br><a href="mailto:hi@varietyroom.de" >hi@varietyroom.de</a> <span class="asterisk"></span> <span class="asterisk"></span></p>
+    </aside>
+    <main>
+      <p><span class="asterisk"></span> performance, theatre, sound, live music, video, dance, readings, poetry</p><br>
+      <p><span class="asterisk"></span> <span class="asterisk"></span> please read the information below beforehands</p><br><br>
+      <p>
+        For the duration of the HfbK annual exhibition 2023 from the 9th to the 12th of february The Variety Room opens its doors in room 123 to showcase the unlimited ingenuity of performance based work of HfbK Students from all classes and departments.
+      </p>
+      <br><br>
+      <p>
+        Our curatorial duties will solely consist of creating the time table for the program and decorating the room. Nothing is off the table, everyone is invited to embarrass themselves. The program should reflect the unregulated and non institutional spirit of most hfbk performance work.<br><br>
+        As an Arts University without any performance based class to attend or professor to turn to, the HfbK has become a breeding ground for its student body to find strange ways of expressing themselves.<br><br>
+        Experimental Music, Sound, Theater, Movement, Expression is being created all around the halls of Lerchenfeld 2 but with no dedicated space to call home during the annual exhibition.<br><br>
+        The Variety room shall be that space. An offering by students for students to express and try to bring to live theory performance based work for an audience to see.
+      </p>
+      <br><br>
+      <p>
+        The varietyroom offers a moody space, a basic stage of 2 by 3 meters, 2 spotlights, 2 microphones, 2 charis, a sound system and an 8 channel mixer with 6.25 audiojack connections. Please consult floorplan above for details.
+      </p>
+      <br><br>
+      <p>
+        Please include in your concept:
+        <ul>
+          <li>
+            names and classes of all participants (for hfbk website)
+          </li>
+          <li>
+            title, a short description and an approximate duration of your performance
+          </li>
+          <li>
+            optional: additonal media or links that give us more details about your performance
+          </li>
+          <li>
+            optional: if you need additional equipment please include that. Important: this is only for our planning, please bring all additional equipment you require with you
+          </li>
+        </ul>
+      </p>
+      <br><br>
+      <p>
+        We are looking forward to your performance. Please send all required information to <a href="mailto:hi@varietyroom.de" >hi@varietyroom.de</a> by 28.01.2023.<br><br>
+        If you have any questions write us an email as well or hit up Apollonia, Leon or Johannes from the Angela Bulloch class.
+      </p>
+    </main>
+  </div>
   </body>
 </html>
