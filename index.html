@@ -96,35 +96,37 @@
         }
         h1{
           position: fixed;
-          top: 2rem;
-          left: 2rem;
+          padding: 2rem;
+          top: 0;
+          left: 0;
+          width: calc(100% - 4rem);
+          height: auto;
           font-size: 2rem;
-        }
-        body{
-
+          background: #c6c6c6;
         }
         aside{
           position: initial;
-          width: 100%;
-          padding-top: calc(50vh - 8rem);
+          padding-top: calc(50vh - 4rem);
+
+          padding: 2rem;
+          width: calc(100% - 8rem);
+          margin-top: 8rem;
         }
         main{
           position: initial;
-          top: 4rem;
-          right: 4rem;
-          width: 100%;
+          padding: 2rem;
+          width: calc(100% - 4rem);
           height: auto;
-          overflow-y: auto;
-          margin-top: 4rem;
           margin-bottom: 37vh;
         }
-        .inner{
+        main:after{
+          content: "";
           position: fixed;
-          top: 6rem;
-          left: 2rem;
-          width: calc(100% - 4rem);
-          height: calc(100vh - 10rem);
-          overflow-y: scroll;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          height: 2rem;
+          background: #c6c6c6;
         }
       }
     </style>
@@ -133,7 +135,6 @@
     <h1>
       varietyroom<span class="asterisk"></span>
     </h1>
-    <div class="inner">
     <aside>
       <p>the varietyroom will showcase performative work <span class="asterisk"></span> during the annual exhibition 2023  in room 123</p><br>
       <p>send us your concept  until 28.01.23 to<br><a href="mailto:hi@varietyroom.de" >hi@varietyroom.de</a> <span class="asterisk"></span> <span class="asterisk"></span></p>
@@ -179,6 +180,5 @@
         If you have any questions write us an email as well or hit up Apollonia, Lion or Johannes from the Angela Bulloch class.
       </p>
     </main>
-  </div>
   </body>
 </html>
