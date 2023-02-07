@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="153px" height="155px" viewBox="0 0 153 155" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>Rectangle 2 Copy</title>
-    <g id="Poster2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M96.2794562,-1.85096383e-12 L133.698576,21.6039389 L113.839,56 L153,56 L153,99 L113.84,99 L133.698576,133.396061 L96.2794562,155 L76.481,120.707 L56.6823242,155 L19.2632044,133.396061 L39.121,99 L0,99 L0,56 L39.122,56 L19.2632044,21.6039389 L56.6823242,-2.10498285e-12 L76.48,34.292 L96.2794562,-1.85096383e-12 Z" id="Rectangle-2-Copy" fill="#C60000"></path>
+<svg width="600px" height="600px" viewBox="0 0 600 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>asterisk</title>
+    <g id="Plan" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M377.853506,1.98099315e-11 L524.405808,83.6281506 L446.918,216.279 L600,216.27907 L600,383.72093 L446.918,383.72 L524.405808,516.371849 L377.853506,600 L300.312,467.256 L222.771,600 L76.218698,516.371849 L153.705,383.72 L0,383.72093 L0,216.27907 L153.705,216.279 L76.218698,83.6281506 L222.771,-1.40562229e-10 L300.312,132.743 L377.853506,1.98099315e-11 Z" id="asterisk" fill="#EB0A0A"></path>
     </g>
 </svg>
