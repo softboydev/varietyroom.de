@@ -21,16 +21,6 @@
   h2,h3,h4,time{
     font-size: 1.25rem;
   }
-  .asterisk{
-    width: 0.7em;
-    height: 0.7em;
-    background-image: url(asterisk.svg);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: inline-block;
-    color: #BEBEBE;
-  }
   a{
     color: #0ED50E;
     text-decoration: none;
