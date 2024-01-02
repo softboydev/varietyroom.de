@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Variety';
-    src: url('static/Montaga-Regular.ttf') format('truetype');
+    src: url('Montaga-Regular.ttf') format('truetype');
   }
   *{
     margin: 0;
@@ -24,7 +24,7 @@
   .asterisk{
     width: 0.7em;
     height: 0.7em;
-    background-image: url(static/asterisk.svg);
+    background-image: url(asterisk.svg);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -87,6 +87,8 @@
   }
   .container {
     min-height: 100vh;
+    position: fixed;
+    margin-top: 7.5rem;
   }
   @media (orientation: portrait) {
     html{
